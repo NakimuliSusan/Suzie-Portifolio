@@ -10,15 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto+Slab:wght@800&family=Ubuntu&display=swap"
         rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+            
     <title>Suzie-Portifolio</title>
 
 </head>
 
 <body>
-    <div class="logo">
-        <h2>MARY<span>-SUSAN</span></h2>
-    </div>
+   
     <div class="nav">
+        <div class="logo">
+            <h2>MARY<span>-SUSAN</span></h2>
+        </div>
         <nav>
             <ul>
                 <li><a href="#nav" class="menu-btn">Home</a></li>
@@ -33,59 +37,46 @@
         <div class="susan">
             <h3>Hello , my name is</h3>
             <h2>NAKIMULI MARY SUSAN</h2>
-            <h3>I AM A SOFTWARE DEVELOPER.</h3>
+            <h3>I am  a <span id="typing">Software developer</span></h3>
         </div>
+        
         <div class="image">
             <img src="SUZIE.jpg" alt="image" width="350" height="450">
         </div>
     </div>
-    <hr id="line" width="100%">
+    <!-- <hr id="line" width="100%"> -->
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About me</h2>
 
-            <div class="column-left">
+            <!-- <div class="column-left">
                 <img src="image.png" alt="about-img" width="400" height="400">
-            </div>
+            </div> -->
 
             <p>
-                I'm Mary Susan and I'm a Software Engineer <br> I am target and result oriented individual. <br>
+                I'm Mary Susan and I'm a Software Engineer. I am target and result oriented individual. <br>
                 <span class="typing-2"></span>
-                I am eager to learn and contribute to team success through <br> hardwork, paying attention to the
-                details and with the skills <br> i have acquired, i have worked on some projects as a way <br> of
+                I am eager to learn and contribute to team success through  hardwork, paying attention <br> to the
+                details and with the skills  i have acquired, i have worked on some projects as a way of <br>
                 growth.
             </p>
         </div>
         <h3>My Skills</h3>
-        <div class="skills">
-        <p>HTML/Css</p>
-        <div class="container">
-            <div class="skills html">90%</div>
-        </div>
-
-        <p>Python</p>
-        <div class="container">
-            <div class="skills css">50%</div>
-        </div>
-
-        <p>JavaScript</p>
-        <div class="container">
-            <div class="skills js">50%</div>
-        </div>
-
-        <p>Kotlin</p>
-        <div class="container">
-            <div class="skills php">60%</div>
-        </div>
-        <p>C++</p>
-        <div class="container">
-            <div class="skills C">65%</div>
-        </div>
-        </div>
-        
-    </section> <br> <br>
-    <hr id="line" width="100%">
-    
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Kotlin</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Python</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">C++</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Javascript</div>
+          </div>
     <script src="main.js"></script>
 </body>
 

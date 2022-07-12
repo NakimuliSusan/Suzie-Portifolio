@@ -29,16 +29,35 @@ body{
 .image img{
     border-radius:45%;
     margin-left:60%;
-    margin-top:-30%;
+    margin-top:-36%;
 }
 .susan {
    margin-top:15%;
    margin-left:5%;
 }
+.susan span{
+    color: #69eaa6;
+    overflow: hidden;
+    white-space:nowrap;
+    animation: animate 3s infinite steps(21) alternate;
+
+}
+@keyframes animate {
+   from {
+    width:0;
+   }
+   to {
+     width:750px;
+   }
+}
 .susan h3{
     font-size:40px;
     color: #ffffff;
     font-family:'Ubuntu' , sans-serif;
+    overflow: hidden;
+    white-space:nowrap;
+    animation: animate 3s infinite steps(21) alternate;
+
 }
 .susan h2{
     font-size:45px;
@@ -49,26 +68,27 @@ body{
     margin-top:4%;
     color: #ffffff;
     font-size:60px;
-    margin-left:5%;
+    margin-left:39%;
 }
-.max-width img{
+/* .max-width img{
     margin-left:60%;
     margin-top:-7%;
-}
+} */
 #line{
    border: solid 2px #69eaa6;
 }
 .max-width p{
     color:#ffffff;
     font-size:22px;
-    margin-top:-29%;
-    margin-left:5%;
+    /* margin-top:-29%; */
+    margin-left:15%;
     font-family: sans-serif;
 }
 .about h3{
-    margin-left:5%;
+    margin-left:45%;
     color: #69eaa6;
     font-size:25px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .skills{
     margin-left:5%;
